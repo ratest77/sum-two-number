@@ -1,0 +1,17 @@
+// Example program
+#include <iostream>
+using namespace std;
+
+//----------------
+int addNambers(int x, int y) {
+    int result=x+y;
+    return result;
+                           }
+//----------------
+int main () {
+    int a,b;
+    cout<<"Program for adding two numbers"<<endl;
+    cout<<"input a: ";cin>>a;
+    cout<<"input b: ";cin>>b;
+    cout<<"Sum a+b= "<<addNambers(a,b);
+           }
